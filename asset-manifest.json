@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/DevTechin/static/css/main.d795b18b.css",
+    "main.js": "/DevTechin/static/js/main.7663c4e1.js",
+    "static/media/bgvideo2.mp4": "/DevTechin/static/media/bgvideo2.78833bb78cd3ff52dec2.mp4",
+    "static/media/back9.jpg": "/DevTechin/static/media/back9.37c8ed53b93891b6aae5.jpg",
+    "static/media/back.jpg": "/DevTechin/static/media/back.2dce0da296f25898b04f.jpg",
+    "static/media/wed1.jpg": "/DevTechin/static/media/wed1.dfb206f4f254823a3f5b.jpg",
+    "static/media/main1.png": "/DevTechin/static/media/main1.c95367b52e8de9af8d9d.png",
+    "index.html": "/DevTechin/index.html",
+    "main.d795b18b.css.map": "/DevTechin/static/css/main.d795b18b.css.map",
+    "main.7663c4e1.js.map": "/DevTechin/static/js/main.7663c4e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d795b18b.css",
+    "static/js/main.7663c4e1.js"
+  ]
+}
