@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hii {
+  position: fixed;
+  left: 50px;
+  bottom: 50px;
+  color: red;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.contactIcon {
+  background-color: aqua;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+  padding: 10px;
+  border-radius: 50px;
+  z-index: 100;
+  position: fixed;
+  cursor: pointer;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+}
+
+video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  top: 0;
+  position: absolute;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  align-items: center;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .8);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slider1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  align-content: center;
+  margin-top: 40%;
 }
+
+.slider2 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  overflow: scroll
+}
+
+.slider3 {
+  height: 100%;
+  width: 100%;
+  margin-top: 1%;
+  position: absolute;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

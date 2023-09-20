@@ -1,0 +1,29 @@
+.MainAbout {
+    padding: 100px;
+}
+
+.innerAbout1 {
+    width: 60%;
+}
+
+.innerAbout2 {
+    width: 40%;
+}
+
+.getQuote1 {
+    border: 1px solid gold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: gold;
+    margin-top: 20px;
+}
+
+.getQuote1:hover {
+    background-color: gold;
+    color: black;
+}
+
+@media screen and (max-width:500px) {
+
+    
+}
