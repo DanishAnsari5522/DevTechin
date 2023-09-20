@@ -21,7 +21,7 @@ function App() {
         <Route path="/about" exact><About /></Route>
         <Route path="/gallery" exact> <Gallery /></Route>
         <Route path="/contact" exact> <Contact /></Route>
-        <Route path="/taswira-v1" exact><Home /></Route>
+        <Route path="/DevTechin" exact><Home /></Route>
         <Route path="/detail" exact><ViewMore /></Route>
       </BrowserRouter>
     </div>
